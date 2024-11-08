@@ -1,14 +1,17 @@
 * {  padding: 0;  margin: 0;
   box-sizing: border-box;
 }
-body { background: radial-gradient(blue,rgb(55, 255, 0));
+body { 
+  background-image: url(fon.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
   min-height: 100vh;
   overflow: hidden;
-	background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   min-height: 100vh;
   font-family: "poppins", sans-serif;
@@ -21,20 +24,20 @@ body { background: radial-gradient(blue,rgb(55, 255, 0));
   height: 100%;
   z-index: -1;
 }
-.container { position: absolute;
-  background-color: #99c39c;
-  width: 400px;
+.container { position: absolute; opacity: .85; color: white;
+  background-color: #7d6cb2;
+  margin-top: 1.5rem;
+  width: 480px;
   height: 160px;
   border-radius: 1rem;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
-h2 {
-  font-size: 1.2rem;
+h2 { font-size: 1.2rem;
   text-align: center;
   font-weight: 500;
 }
 .player_progress {
-  background-color: #c6bfbf;
+  background-color: #ed7575;
   border-radius: 5px;
   height: 6px;
   width: 90%;
@@ -56,7 +59,7 @@ h2 {
   position: absolute;
   top: -25px;
 }
-.player_controls {
+.player_controls {margin-left: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +79,7 @@ h2 {
   font-size: 44px;
 }
 
-#zaonpp{position: absolute; z-index: 3;}
-
+#zaonpp{position: absolute; z-index: 3;
+margin-left: 12rem; margin-top: 5rem;
+}
 p{color: #fff;}
