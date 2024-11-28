@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
-      <link rel="stylesheet" href="playmus.css" />
-      <link rel="stylesheet" href="viezdmnu.css" />    
-      <link rel="stylesheet" href="viezdmnur.css" />    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <!-- <link rel="stylesheet" href="all.min.css"> -->
-    <title>Аудиоплейер 2</title>
+    <link rel="stylesheet" href="playmus.css" />
+    <link rel="stylesheet" href="viezdmnu.css" />    
+    <link rel="stylesheet" href="viezdmnur.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">   <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <title>Плейер 2 Анхель</title>
     <link rel="icon" type="Images/x-icon" href="atsicon.ico"/>
   </head>
   <body>
@@ -38,15 +37,36 @@
   <button class="btn btn-primary" id="butn16">&nbspФон&nbsp16&nbsp</button>
 </div>
 
-<div class="victor" id="victor">
+<!-- <div class="victor" id="victor">
   <iframe width="670" height="275" frameborder="1"src="angel.html"
   title="Читаем" frameborder="0" allowfullscreen></iframe>
-</div>  
+</div>   -->
+
+<div class="containerop" id="containerop">
+  <p>Водопад находится в тропических лесах венесуэльского штата Боливар. 
+Вода низвергается с горы Ауян-Тепуи (в переводе на русский означает 
+«гора дьявола») в регионе Гран-Сабана. 
+Высота водопада - 979 м, в основном состоит из основного каскада, 
+но также включает около 400 метров наклонного каскада и порогов 
+под водопадом и 30-метровый каскад ниже по течению.
+Высота падения настолько велика, что, прежде чем достичь земли, вода 
+распыляется на мельчайшие частички и превращается в туман. 
+Влага в воздухе ощущается в пределах нескольких километров.
+Водопад находится в месте слияния реки Керипакупай-Меру с рекой Чурун, 
+притоком реки Каррао, которая, в свою очередь, является притоком реки Ориноко.
+Водопад известен как водопад Анхель с середины XX века. Он назван в честь 
+Джимми Энджела (англ. Angel) - американского летчика, который первым пролетел 
+над водопадом на самолете в 1933 году.
+В 1994 году ЮНЕСКО включило Национальный парк Канайма и водопад Анхель 
+в список Всемирного наследия.
+</p>
+  </div>
 
 <div class="victor1">
   <button onclick="show_hide()">&nbspОписание&nbsp</button>
   <button onclick="show_hide2()">&nbspПлейер&nbsp</button>
   <button onclick="show_hide3()">&nbspФоны&nbsp</button>
+  <button id="makefon">&nbspФон для чтения&nbsp</button>
   <button>
     <a href="angel/angelw.html" target="_blank" title="Дополнительно">Дополнительно</a>
   </button>
@@ -56,49 +76,49 @@
   <div class="list_menu">
     <ul>
 
-<li><span id=mus1><p>Веришь мне</p>    
+<li><span id=mus201><p>Веришь мне</p>    
     <audio controls>
         <source src="music/verish.mp3" type="audio/mpeg">Прослушаем музыку 1
     </audio>
 </span></li>
 
-<li><span id=mus2><p>Жизнь</p>    
+<li><span id=mus202><p>Жизнь</p>    
   <audio controls>
       <source src="music/zhizn.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus3><p>Море</p>    
+<li><span id=mus203><p>Море</p>    
   <audio controls>
       <source src="music/more.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus4><p>20 лет спустя</p>    
+<li><span id=mus204><p>20 лет спустя</p>    
   <audio controls>
       <source src="music/20let.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus5><p>Радуга</p>    
+<li><span id=mus205><p>Радуга</p>    
   <audio controls>
       <source src="music/raduga.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus17><p>Иногда</p>    
+<li><span id=mus206><p>Иногда</p>    
   <audio controls>
       <source src="music/inogda.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus6><p>Весна</p>    
+<li><span id=mus207><p>Весна</p>    
   <audio controls>
       <source src="music/vesna.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus8><p>Ищу тебя</p>    
+<li><span id=mus208><p>Ищу тебя</p>    
   <audio controls>
       <source src="music/ishuteba.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
@@ -112,49 +132,49 @@
   <div class="list_menur">
     <ul>
 
-<li><span id=mus9><p>Чарльстон</p>    
+<li><span id=mus209><p>Чарльстон</p>    
   <audio controls>
       <source src="music/срarlston.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus18><p>Добрый день</p>    
+<li><span id=mus210><p>Добрый день</p>    
   <audio controls>
       <source src="music/dobriyden.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus11><p>Мы с тобой</p>    
+<li><span id=mus211><p>Мы с тобой</p>    
   <audio controls>
       <source src="music/mistoboy.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus12><p>Родительский дом</p>    
+<li><span id=mus212><p>Родительский дом</p>    
   <audio controls>
       <source src="music/roddom.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus13><p>Ты где, июнь</p>    
+<li><span id=mus213><p>Ты где, июнь</p>    
   <audio controls>
       <source src="music/gdeiyn.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus14><p>Гардемарины</p>    
+<li><span id=mus214><p>Гардемарины</p>    
   <audio controls>
       <source src="music/gardem.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus15><p>Есть только миг</p>    
+<li><span id=mus215><p>Есть только миг</p>    
   <audio controls>
       <source src="music/estmig.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
 </span></li>
 
-<li><span id=mus16><p>Мгновения</p>    
+<li><span id=mus216><p>Мгновения</p>    
   <audio controls>
       <source src="music/mgnoven.mp3" type="audio/mpeg">Прослушаем музыку 1
   </audio>
@@ -167,7 +187,7 @@
 <div class="container" id="container">
       <div id="zaonpp">ЗАО НПП "АТС"</div>     
       <!--============Player Content -->
-      <h2 id="music_title">Capital Letters</h2>
+      <h2 id="music_title">Заголовок</h2>
       <!--==============Player Progress & Timmer -->
       <div class="player_progress" id="player_progress">
         <div class="progress" id="progress">
@@ -190,6 +210,7 @@
   <script src="vklvikl.js"></script>  
   <script src="vklvikl2.js"></script>  
   <script src="vklvikl3.js"></script>  
+  <script src="vklvikl4.js"></script>  
   
   <!-- <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
